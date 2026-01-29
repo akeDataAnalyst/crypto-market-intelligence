@@ -1,6 +1,6 @@
 # Crypto Market Competitor Intelligence Dashboard
 
-[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://crypto-market-intelligence-hyeqcs3cpjzjxkokkjbxcu.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://crypto-market-intelligence-hycvzqrn8zlttjykahsyc3.streamlit.app/)
 
 ## Executive Summary
 In the hyper-competitive digital asset landscape, market leadership can shift within hours.  
