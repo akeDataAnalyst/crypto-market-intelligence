@@ -3,29 +3,65 @@
 [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://crypto-market-intelligence-hyeqcs3cpjzjxkokkjbxcu.streamlit.app/)
 
 ## Executive Summary
-In the hyper-competitive 2026 digital asset landscape, market share is won and lost in hours. This project provides a high-level strategic overview of the cryptocurrency market, focusing on Sector Dominance and Competitor Benchmarking. 
-By aggregating live data visualizes capital rotation across different blockchain ecosystems, enabling strategists to identify which protocols are gaining "Relative Strength" compared to their peers.
+In the hyper-competitive digital asset landscape, market leadership can shift within hours.  
+This project delivers a strategic business intelligence view of the cryptocurrency market, focusing on sector dominance, competitor benchmarking, and capital rotation.
+
+By aggregating and normalizing data from multiple public crypto market data sources, the dashboard visualizes how capital flows across blockchain ecosystems, enabling analysts and decision-makers to identify which protocols are gaining relative strength versus their peers.
+
+---
 
 ## Key Features
-- **Dynamic Market Share Visualization:** Real-time Treemaps and Sunburst charts showing the dominance of L1s (Ethereum, Solana) vs. L2s (Arbitrum, Base).
-- **Sector Performance Heatmaps:** A birds-eye view of which narrative (e.g., DePIN, RWA, AI) is currently attracting the most capital.
-- **Competitor Correlation Matrix:** Analyzes price-action synergy between rival projects (e.g., BNB vs. SOL) to detect diverging market sentiment.
-- **Top 50 Gainer/Loser Intelligence:** Automated reporting on the "So What?" behind market moves, filtering out noise to highlight structural growth.
+
+- **Dynamic Market Share Visualization**  
+  Interactive Treemaps and Sunburst charts illustrating dominance shifts between Layer 1 and Layer 2 ecosystems (e.g., Ethereum, Solana, Arbitrum, Base).
+
+- **Sector Performance Heatmaps**  
+  High-level views of capital concentration across emerging narratives such as AI, DePIN, and RWA.
+
+- **Competitor Correlation Matrix**  
+  Measures price-action relationships between competing assets (e.g., BNB vs. SOL) to detect converging or diverging market sentiment.
+
+- **Top 50 Gainers & Losers Intelligence**  
+  Automated reporting that contextualizes short-term market movements and highlights structurally significant trends rather than noise.
+
+---
 
 ## Technical Stack
+
 - **Language:** Python 3.10+
-- **Data Ingestion:** CoinMarketCap Professional API / CoinGecko Pro API.
-- **Data Engineering:** - `Pandas`: Multi-index data structures for sector-based grouping.
-  - `Requests`: Robust API polling with error handling and rate-limit management.
-- **Visualization:** Plotly (Interactive charts) & Streamlit (Web deployment).
+- **Data Ingestion:** Public crypto market data APIs (e.g., price, volume, market capitalization endpoints)
+- **Data Engineering:**
+  - `Pandas` — data normalization, sector grouping, and KPI computation
+  - `Requests` — resilient API ingestion with error handling and rate-limit awareness
+- **Visualization & Deployment:**
+  - `Plotly` — interactive analytical visualizations
+  - `Streamlit` — web-based BI dashboard deployment
+
+---
 
 ## Strategic Analysis Logic
-The dashboard calculates "Competitor Health" through three proprietary metrics:
-1. **Relative Dominance Index (RDI):** Measuring an asset's market cap growth relative to the Total Crypto Market Cap ($TOTAL$).
-2. **Capital Velocity:** Tracking 24h Volume-to-Market Cap ratios to identify "Overheated" vs. "Under-accumulated" sectors.
-3. **Ecosystem Stickiness:** Mapping TVL (Total Value Locked) and developer activity as a lead indicator of market share retention.
+
+The dashboard evaluates competitive positioning and ecosystem health using derived analytics and comparative indicators:
+
+1. **Relative Dominance Index (RDI)**  
+   Measures asset-level market capitalization growth relative to the broader crypto market to identify outperformers.
+
+2. **Capital Velocity**  
+   Uses Volume-to-Market-Cap ratios to assess capital efficiency and distinguish between overheated and under-accumulated sectors.
+
+3. **Ecosystem Stickiness (Proxy Indicators)**  
+   Combines liquidity persistence, relative valuation stability, and ecosystem growth signals as leading indicators of market share retention.
+
+---
 
 ## Business Value
-- **Strategic Benchmarking:** Helps projects understand their positioning relative to direct competitors.
-- **Trend Identification:** Early-warning system for "Narrative Rotations," allowing for proactive portfolio rebalancing.
-- **Stakeholder Reporting:** Generates C-suite ready visuals that distill 10,000+ coins into 5 critical market signals.
+
+- **Strategic Benchmarking**  
+  Enables projects, analysts, and researchers to assess competitive positioning within crowded market segments.
+
+- **Trend & Narrative Detection**  
+  Acts as an early-warning system for sector rotations, supporting proactive strategy and allocation decisions.
+
+- **Executive-Ready Reporting**  
+  Condenses thousands of assets into a small set of decision-critical market signals suitable for stakeholder communication.
+
