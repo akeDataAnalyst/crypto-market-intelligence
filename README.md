@@ -1,5 +1,7 @@
 # Crypto Market Competitor Intelligence Dashboard
 
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)]()
+
 ## Executive Summary
 In the hyper-competitive 2026 digital asset landscape, market share is won and lost in hours. This project provides a high-level strategic overview of the cryptocurrency market, focusing on Sector Dominance and Competitor Benchmarking. 
 By aggregating live data visualizes capital rotation across different blockchain ecosystems, enabling strategists to identify which protocols are gaining "Relative Strength" compared to their peers.
